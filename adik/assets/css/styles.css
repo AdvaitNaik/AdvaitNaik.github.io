@@ -93,7 +93,7 @@ img{
   right: 0;
   margin: auto;
   top: 2rem;
-  background-color: var(--first-color);
+  /* background-color: var(--first-color); */
 }
 .section{
   padding-top: 3rem;
@@ -146,9 +146,11 @@ img{
 .nav__link{
   position: relative;
   color: #fff;
+  text-decoration: none;
 }
 .nav__link:hover{
   position: relative;
+  text-decoration: none;
 }
 .nav__link:hover::after{
   position: absolute;
@@ -273,7 +275,7 @@ img{
   box-shadow: 0 4px 25px rgba(14,36,49,.15);
 }
 .skills__icon{
-  font-size: 2rem;
+  font-size: 4rem;
   margin-right: var(--mb-2);
   color: var(--first-color);
 }
